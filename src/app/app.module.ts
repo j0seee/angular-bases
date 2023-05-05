@@ -3,9 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { CounterModule } from './counter/counter/counter.module';
 import { HeroesModule } from './heroes/heroes.module';
-
+import { DbzModule } from './dbz/dbz.module';
 
 import { AppComponent } from './app.component';
+
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     CounterModule,
     HeroesModule,
+    DbzModule,
 
   ],
   providers: [],
